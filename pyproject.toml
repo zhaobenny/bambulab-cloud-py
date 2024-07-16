@@ -1,0 +1,21 @@
+[project]
+name = "bambulab-cloud"
+version = "0.0.1"
+authors = [{ name = "Benny Zhao", email = "benny@zhao.gg" }]
+dependencies = ["httpx", "pydantic", "pyjwt"]
+description = "Unofficial Python client for Bambulab's Cloud API"
+readme = "README.md"
+requires-python = ">=3.8.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/zhaobenny/bambulab-cloud-py"
+Issues = "https://github.com/zhaobenny/bambulab-cloud-py/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
